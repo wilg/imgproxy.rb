@@ -18,6 +18,7 @@ module Imgproxy
       size:          nil,
       resizing_type: Imgproxy::OptionsExtractors::String.new(:resizing_type),
       width:         Imgproxy::OptionsExtractors::Integer.new(:width),
+      rotate:        Imgproxy::OptionsExtractors::Integer.new(:rotate),
       height:        Imgproxy::OptionsExtractors::Integer.new(:height),
       dpr:           Imgproxy::OptionsExtractors::Float.new(:dpr),
       enlarge:       Imgproxy::OptionsExtractors::Bool.new(:enlarge),
